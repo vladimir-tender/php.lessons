@@ -1,0 +1,35 @@
+* {
+  font-family:Times,sans-serif;
+  font-size  :12pt;
+}
+div{
+  display:table; 
+  margin: 0 auto;
+}
+fieldset{
+  width:auto;
+  text-align: center;
+}
+legend{
+  font-family: Impact, serif;
+  font-size:13pt;
+}
+form{
+  text-align: right;
+}
+input[id],select[name=nval]{
+  margin-left:10px;
+  margin-top:2px;
+  background-color: lightblue;
+}
+input[id]:hover, select:hover{
+  border-color:cyan;
+}
+div.submit{
+  margin-top: 5px;
+  display:table;
+  text-align:center;
+}
+input[type=submit]{
+  font-weight: bold;
+}
